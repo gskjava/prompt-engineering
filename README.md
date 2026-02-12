@@ -751,3 +751,79 @@ Include:
 - Risks
 - Rollback strategy
 - ===================================================================================
+Explain this PostgreSQL stored procedure in detail:
+
+- Input parameters meaning
+- Output type
+- Business logic flow
+- Conditional branches
+- Loops (if any)
+- Transaction behavior
+- Exception handling
+- Performance concerns
+This helps you explain it in meetings confidently.
+
+🏗 3️⃣ Convert Procedure → Business Logic Explanation
+Translate this procedure into business-level explanation.
+
+Explain:
+- What business problem it solves
+- When it should be executed
+- What assumptions it makes
+- Possible failure scenarios
+- =====================================================================
+- Review this stored procedure for:
+
+- SQL injection risks
+- Unsafe dynamic SQL
+- Permission issues
+- Data exposure risks
+🧪 7️⃣ Convert Procedure → Java Repository Call
+Generate Spring Data JPA or JDBC code to call this PostgreSQL procedure.
+
+Include:
+- Parameter binding
+- Transaction handling
+- Exception handling
+📄 8️⃣ Generate Documentation for Procedure
+Generate technical documentation for this PostgreSQL procedure:
+
+- Purpose
+- Inputs
+- Outputs
+- Internal logic summary
+- Tables touched
+- Side effects
+- Performance considerations
+You can store in Confluence.
+
+🚀 Advanced: Refactor DB Logic
+Sometimes procedures are too complex.
+
+Use:
+
+Suggest how to simplify or refactor this procedure.
+
+- Can logic move to application layer?
+- Can query be broken into smaller parts?
+- Can indexing strategy improve?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
