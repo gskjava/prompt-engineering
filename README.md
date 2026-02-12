@@ -460,3 +460,294 @@ When you finish documentation, send message like:
 I have created technical documentation for better onboarding and future maintenance.
 
 Visibility increases.
+=========================================================================================
+Act as a senior Java architect.
+
+Review this code for:
+
+- Clean code principles
+- SOLID violations
+- Design pattern misuse
+- Readability issues
+- Maintainability concerns
+- Naming improvements
+- Code duplication
+- Error handling quality
+
+Be specific and suggest improved code examples.
+====================================================================================================
+
+⚡ 2️⃣ Spring Boot Specific Review
+Review this Spring Boot class for:
+
+- Proper layering (Controller/Service/Repository separation)
+- Dependency injection best practices
+- Transaction management issues
+- Exception handling strategy
+- REST best practices
+- DTO vs Entity separation
+- Validation correctness
+- Logging quality
+
+Suggest improvements following industry standards.
+
+🚀 3️⃣ Performance Review Prompt
+Analyze this code for performance issues:
+
+- N+1 query problems
+- Inefficient loops
+- Unnecessary object creation
+- Blocking calls
+- Large memory usage
+- Improper caching
+
+Suggest optimized version.
+
+
+Very useful for slowness issues.
+
+🔐 4️⃣ Security Review Prompt
+Review this code for security vulnerabilities:
+
+- SQL injection risks
+- Input validation gaps
+- Authentication/authorization flaws
+- Sensitive data exposure
+- Hardcoded secrets
+- Logging of confidential data
+
+Suggest secure alternatives.
+
+
+This makes you look senior in reviews.
+
+🧠 5️⃣ Refactoring-Oriented Review
+Suggest refactoring opportunities in this code.
+
+Focus on:
+- Reducing complexity
+- Improving modularity
+- Removing tight coupling
+- Improving testability
+- Applying design patterns if appropriate
+
+📊 6️⃣ Code Smell Detection Prompt
+Identify code smells in this class.
+
+Classify them as:
+- Critical
+- Major
+- Minor
+
+Explain why each is a smell and how to fix it.
+
+🧪 7️⃣ Unit Test Review Prompt
+Review these unit tests for:
+
+- Coverage gaps
+- Missing edge cases
+- Mock misuse
+- Flaky test risks
+- Assertion quality
+- Test readability
+
+Suggest improvements.
+
+🎯 8️⃣ PR Summary Generator (Very Powerful for Recognition)
+
+After review:
+
+Generate a professional PR review summary including:
+
+- Strengths
+- Improvement areas
+- Risks
+- Final recommendation
+
+Keep it constructive and team-friendly.
+
+
+You can paste directly in Git review.
+
+🏆 Pro-Level Prompt (Architect Mode)
+Act as a principal engineer.
+
+If this code will scale to 1 million users:
+
+- What will break first?
+- What needs redesign?
+- What technical debt exists?
+- What monitoring is missing?
+- What architectural risks exist?
+- =======================================================================
+- Act as a senior Spring Boot architect.
+
+Based on this JIRA ticket, generate:
+
+- Functional understanding
+- Technical approach
+- Affected modules
+- Database changes (if any)
+- API changes
+- Validation rules
+- Edge cases
+- Risks
+- Suggested implementation steps
+
+Make it structured and clear.
+=======================================================================
+Break this JIRA story into technical development tasks.
+
+Include:
+- Backend tasks
+- Database tasks
+- API updates
+- Unit test tasks
+- Integration test tasks
+- Deployment considerations
+Great for sprint planning.
+
+📄 3️⃣ Convert JIRA → Developer Notes
+Create developer notes from this JIRA ticket including:
+
+- Business context
+- Assumptions
+- Open questions
+- Technical clarifications required
+- Dependencies
+- ====================================================================================
+- enerate detailed test cases from this JIRA description.
+
+Include:
+- Positive scenarios
+- Negative scenarios
+- Edge cases
+- Boundary conditions
+- Validation tests
+QA will respect you for this.
+
+🔎 5️⃣ Find Gaps in JIRA (Senior Move)
+Review this JIRA story critically.
+
+Identify:
+- Missing acceptance criteria
+- Ambiguities
+- Edge cases not covered
+- Technical risks
+- Performance concerns
+- Security considerations
+- ===========================================================================================
+- 🎯 1️⃣ Convert JIRA Story → Technical Implementation Plan
+
+Paste JIRA description and ask:
+
+Act as a senior Spring Boot architect.
+
+Based on this JIRA ticket, generate:
+
+- Functional understanding
+- Technical approach
+- Affected modules
+- Database changes (if any)
+- API changes
+- Validation rules
+- Edge cases
+- Risks
+- Suggested implementation steps
+
+Make it structured and clear.
+
+
+This helps before you even start coding.
+
+🧠 2️⃣ Convert JIRA → Task Breakdown
+Break this JIRA story into technical development tasks.
+
+Include:
+- Backend tasks
+- Database tasks
+- API updates
+- Unit test tasks
+- Integration test tasks
+- Deployment considerations
+
+
+Great for sprint planning.
+
+📄 3️⃣ Convert JIRA → Developer Notes
+Create developer notes from this JIRA ticket including:
+
+- Business context
+- Assumptions
+- Open questions
+- Technical clarifications required
+- Dependencies
+
+
+Very useful for grooming discussions.
+
+🧪 4️⃣ Convert JIRA → Test Cases
+Generate detailed test cases from this JIRA description.
+
+Include:
+- Positive scenarios
+- Negative scenarios
+- Edge cases
+- Boundary conditions
+- Validation tests
+
+
+QA will respect you for this.
+
+🔎 5️⃣ Find Gaps in JIRA (Senior Move)
+Review this JIRA story critically.
+
+Identify:
+- Missing acceptance criteria
+- Ambiguities
+- Edge cases not covered
+- Technical risks
+- Performance concerns
+- Security considerations
+
+
+This is how senior engineers stand out.
+
+🚀 6️⃣ Generate API Contract from JIRA
+
+If ticket is API-related:
+
+From this JIRA ticket, generate:
+
+- REST endpoint definition
+- Request JSON
+- Response JSON
+- Validation rules
+- Error responses
+- HTTP status codes
+
+🏗 7️⃣ Architecture Impact Analysis
+Analyze architectural impact of this JIRA story.
+
+- Will this increase coupling?
+- Does it violate layering?
+- Does it affect scalability?
+- Does it require caching?
+- Does it introduce transaction risks?
+
+
+Managers love this thinking.
+
+📊 8️⃣ Convert JIRA → PR Description
+
+After coding:
+
+Generate a professional PR description based on this JIRA.
+
+Include:
+- Summary
+- Technical changes
+- Testing done
+- Risks
+- Rollback strategy
+- ===================================================================================
