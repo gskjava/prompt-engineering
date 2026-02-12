@@ -808,7 +808,92 @@ Suggest how to simplify or refactor this procedure.
 - Can query be broken into smaller parts?
 - Can indexing strategy improve?
 
+================================================================================
+5️⃣ Performance-Oriented Refactoring
+Refactor this code for better performance:
 
+- Remove unnecessary loops
+- Optimize stream usage
+- Avoid repeated DB calls
+- Improve memory efficiency
+- Suggest caching if needed
+
+🔄 6️⃣ Convert Imperative → Functional Style
+Refactor this code using modern Java features:
+
+- Streams
+- Optional
+- Lambda expressions
+- Method references
+- Collectors
+
+Keep it readable.
+
+🧪 7️⃣ Testability Refactoring
+Refactor this class to improve unit testability:
+
+- Reduce tight coupling
+- Use dependency injection properly
+- Remove static dependencies
+- Improve separation of concerns
+
+
+Very strong senior move.
+
+🧹 8️⃣ Remove Code Smells
+Identify and refactor code smells in this class.
+
+Classify them as:
+- Critical
+- Major
+- Minor
+
+Provide improved version.
+
+🏛 9️⃣ Architectural Refactoring
+If this application needs to scale to high traffic:
+
+Refactor this design to:
+
+- Reduce coupling
+- Improve modularity
+- Support horizontal scaling
+- Improve resilience
+- Improve logging and monitoring
+
+
+This is principal engineer thinking.
+
+🧩 10️⃣ Large Method Refactoring
+
+If method is 200+ lines:
+
+Break this large method into smaller cohesive methods.
+
+Each method should:
+- Have single responsibility
+- Clear naming
+- Be independently testable
+
+🧠 11️⃣ Legacy Code Refactoring
+Refactor this legacy code:
+
+- Replace deprecated APIs
+- Modernize Java version usage
+- Remove outdated patterns
+- Improve exception handling
+
+🎯 12️⃣ Refactor for Maintainability (Recognition Booster)
+Refactor this code to improve long-term maintainability.
+
+Focus on:
+- Readability
+- Clear boundaries
+- Explicit contracts
+- Logging improvements
+- Error handling clarity
+
+💡 Pro Strategy (Very Important)
 
 
 
